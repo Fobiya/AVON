@@ -70,7 +70,7 @@ h2 {
        width: 100%;
     text-align: center;
         margin-top: 40px;
-        font-size: 40px;
+        font-size: 30px;
       margin: 0px auto 45px auto;
     display: inline-table;
 
@@ -137,4 +137,200 @@ h2 {
 
 #section_03 .grid_3{
 text-align: center;
+}
+
+
+#section_04 {
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+#section_03 .black {
+    margin-left: 0;
+    width: 315px;
+    margin: 0 auto;
+    float: none;
+}
+
+
+#section_03 .block {
+    margin-top: 77px;
+    margin-bottom: 50px;
+}
+
+#section_03 .block:before{
+    display: none;
+}
+
+.container_12 .prefix_1_5 {
+    
+padding-left:0px;
+}
+
+#section_04 h2:after {
+ display: none;   
+}
+
+#section_05 .grid_3 {
+     width: 46%;
+    display: inline-block;
+    float: left;
+}
+.view {
+     width: 204px;
+    height: 238px;
+    margin: 20px auto;
+    border: 10px solid #c0c0c0;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 2px #484242;
+    -moz-box-shadow: 1px 1px 2px #484242;
+    box-shadow: 1px 1px 2px #484242;
+    cursor: default;
+    float: none;
+}
+
+#section_02 h2:after, #section_05 h2:after, #section_06 h2:after, #section_07 h2:after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    display: inline-block;
+    background: #000;
+    z-index: 1;
+    margin-left: 15px;
+    margin-top: 26px;
+}
+
+#section_02 h2:before, #section_05 h2:before, #section_06 h2:before, #section_07 h2:before {
+    content: "";
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    display: inline-block;
+    background: #000;
+    z-index: 1;
+     margin-left: -67px;
+    margin-top: 26px;
+}
+
+.youtube {
+    background: url(../images/Screenshot_2.png);
+    margin-top: 100px;
+    width: 90%;
+    height: 305px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: all 200ms ease-out;
+    cursor: pointer;
+    border: 15px solid #c0c0c0;
+    margin-bottom: 50px;
+    background-size: contain;
+}
+
+.youtube:before{
+    display: none;
+}
+
+
+
+.owl-carousel img {
+    width: 100%;
+    height: auto;
+  
+}
+
+
+.owl-pagination {
+    display: inline-block;
+}
+
+.owl-buttons{
+    display: none;
+}
+
+
+.owl-carousel .prefix_1_5:before {
+        margin-left: 0px;
+    content: "";
+    width: 170px;
+    height: 250px;
+    position: absolute;
+    display: inline-block;
+    background: url(../images/kartoska.png) no-repeat top 20px left;
+    z-index: -1;
+    margin-top: -15px;
+    background-size: contain;
+}
+
+
+.owl-carousel img {
+    width: 80%;
+    height: auto;
+    text-align: right;
+    float: right;
+    margin-top: 40px;
+}
+
+.owl-carousel .prefix_1_5:before{
+    display: none;
+}
+
+
+.owl-carousel img {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    float: none;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inherit;
+    margin-bottom: 50px;
+}
+
+.icone {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section_06 .block:after{
+    display: none;
+}
+
+.for-poster {
+
+    display: inline-block;
+        margin-top: 55px;
+}
+
+.box_post {
+float: none;
+    margin-top: 0px;
+    margin-bottom: 20px
+}
+
+#section_08 {
+ 
+    padding-top: 50px;
+}
+#section_08 .grid_8{
+text-align: center
+}
+.for-poster {
+    display: inline-block;
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+
+#section_07{
+    margin-bottom: 50px;
 }
