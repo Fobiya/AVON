@@ -454,3 +454,12 @@ margin-top: 30px;
 .block2 .grid_9{
     text-align: left;
 }
+
+#section_06 .container_12 .grid_10 {
+    width: 800px;
+}
+
+#section_06 .block {
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
