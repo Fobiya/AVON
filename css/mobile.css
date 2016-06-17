@@ -86,6 +86,13 @@ h2 {
 }
 /*END CSS  Web~Oman*/
 
+/* HEDER 720  Web~Oman*/
+
+.phone {
+
+    font-size: 20px !important;
+
+}
 
 
 .logo {
@@ -95,6 +102,16 @@ h2 {
     width: 100%;
 }
 
+header {
+     background: #f2487e !important;
+    height: auto;
+    z-index: 0;
+    position: relative;
+    display: inline-block;
+        text-align: center;
+}
+
+/*END HEDER 720  Web~Oman*/
    
 
 #section_01 .block a{
@@ -333,3 +350,68 @@ text-align: center
 #section_07{
     margin-bottom: 50px;
 }
+
+
+
+
+.for-poster{
+        margin-top: 0px;
+}
+
+#section_08 input ,#section_08 .field{
+  
+    width: 100%;
+}
+
+.footer_top .flogo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.social{
+    margin: 10px;
+}
+
+.mail {
+    margin: 10px;
+    display: inline-block;
+}
+
+#section_01 {
+    background: none;
+    height: auto;
+    z-index: 0;
+    position: relative;
+    padding: 50px 0;
+}
+
+#section_02 {
+
+    padding: 50px 0;
+}
+
+
+
+
+.button {
+    float: none;
+  
+    margin: 20px auto;
+}
+
+h1 {
+    font-family: 'PTSans NarrowBold';
+    font-size: 49px;
+
+}
+
+#section_08 {
+
+    text-align: center;
+}
+
+#section_06 .block {
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+
