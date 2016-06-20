@@ -93,6 +93,7 @@ $(function() {
 
 //Форма отправки 2.0 //
 $(function() {
+    
     $("[name=send]").click(function () {
         $(":input.error").removeClass('error');
         $(".allert").remove();
@@ -181,7 +182,6 @@ $(function() {
         return false;
     })
 });
-
 
 //// SLIDER    ----------------------->
 //
@@ -299,8 +299,29 @@ $(function() {
         //After change type go to next slide
         owl.trigger("owl.next");
       });
+      
+      
+      
+   
     });
 
 
 
 
+      $(".md-trigger").on('click',function(){
+          $('.titlebox h2').html($(this).html());
+      });
+      
+ 
+
+
+
+(function() {
+  if (window.pluso)if (typeof window.pluso.start == "function") return;
+  if (window.ifpluso==undefined) { window.ifpluso = 1;
+    var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+    s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+    s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+    var h=d[g]('body')[0];
+    h.appendChild(s);
+  }})();

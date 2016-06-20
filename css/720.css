@@ -358,7 +358,6 @@ br{
 
 
 span{
-       display: inherit;
     position: initial;
 }
 
@@ -366,10 +365,8 @@ span{
 h2{
 
      font-size: 35px;
-    
-
-    margin-top: 80px;
-      margin-bottom: 95px;
+    margin-top: 70px;
+    margin-bottom: 65px;
 
 
 }
@@ -391,21 +388,7 @@ h2{
 
 /* END CSS  Web~Oman*/
 
-/* HEDER 960  Web~Oman*/
 
-
-.call_me{
-  font-size: 16px;  
-}
-
-.sign_up {
-    font-size: 16px;
-}
-
-.phone {
-    font-size: 16px;
-}
-/*END HEDER 960  Web~Oman*/
 
 
 
@@ -599,9 +582,9 @@ margin-top: 30px;
 }
 
 
-#section_08 .form_icon i {
+#katalog .form_icon i {
 
-    line-height: 44px!important;
+    line-height: 60px!important;
 }
 
 #section_08 {
@@ -622,6 +605,7 @@ margin-top: 30px;
 
 .with{
    width: 100% !important;
+        text-align: center;
 }
 
 
@@ -662,4 +646,67 @@ margin-top: 30px;
 
 .social{
     margin-top: 10px;
+}
+
+.icone {
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+#section_01 p {
+  
+    font-size: 18px;
+
+}
+
+#section_06 p{
+      margin-top: 10px;
+}
+
+.md-content.forma_order_popap{
+    
+width: 353px;
+    height: 383px;
+    
+}
+
+.md_hew {
+    width: 770px !important;
+}
+
+
+.testpopup__position, .testpopup__position1, .testpopup__position2, .testpopup__position3, .testpopup__position4, .testpopup__position5, .testpopup__position6 {
+    width: auto;
+    height: auto;
+    border: none;
+    display: inline-block;
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.testpopup__position:after,.testpopup__position1:after,.testpopup__position2:after,.testpopup__position3:after,.testpopup__position4:after,.testpopup__position5:after,.testpopup__position6:after{
+    background-color: #f56492;
+    color: #fff;
+    font-family: 'PTSans NarrowBold';
+    text-transform: uppercase;
+    content: "Beauty Consultant";
+    display: inline-block;
+    z-index: 1;
+    margin-right: 0px;
+    margin-top: 0px;
+    right: 100px;
+    top: 0px;
+    font-size: 18px;
+    padding: 2px 3px;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+.cont_popap img {
+    width: auto;
 }

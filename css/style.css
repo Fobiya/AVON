@@ -53,219 +53,6 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 
 
 
-/* HEADER CSS  Web~Oman*/
-
-
-header {
-  
-    background: url(../images/header.png)no-repeat center top;
-    height: 735px;
-        z-index: 0;
-    position: relative;
-}
-
-
-.logo{
-     font-family: 'OpenSans Bold';
-    font-size: 18px;
-    color: #101010;
-    text-decoration: none;
-    margin-top: 33px;
-margin-left: 8px;
-        display: inherit;
-    
-}
-
-.sign_up{
-    color: #171717;
-    margin-top: 29px;
-   font-size: 18px;
-     font-family: 'OpenSans Bold';
-        margin-top: 33px;
-    display: inherit;
-
-}
-
-.sign_up:hover{
-    color: #fff;
-        text-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
-
-}
-
-.phone{
-    color: #171717;
-    font-size: 18px;
-    
-     font-family: 'OpenSans Regular';
-        margin-top: 5px;
-        display: inherit;
-    margin-right: 2px;
-}
-
-.phone:hover{
-    color: #911a4b;
-   
-    
-
-}
-
-
-
-
-.call_me{
-    color: #171717;
-    margin-top: 29px;
-    font-size: 18px;
-    font-family: 'OpenSans Bold';
-    margin-top: 33px;
-    display: inherit;
-
-}
-
-.call_me:hover{
-      margin-bottom: 1px;
-    color:#fff;
-}
-
-
-.call_me:hover::after {
-
-    -webkit-transform: scale3d(1,1,1);
-    transform: scale3d(1,1,1);
-}
-
-.call_me::after {
-
-    left: 0;
-    bottom: 0;
-    -webkit-transform-origin: 0 50%;
-    transform-origin: 0 50%;
-}
-
-.call_me:after {
-    margin-bottom: 1px;
-    content: '';
-    width: 100%;
-    height: 1px;
-    z-index: -1;
-    background: #fff;
-    position: absolute;
-    -webkit-transform: scale3d(0,1,1);
-    transform: scale3d(0,1,1);
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: transform 0.5s;
-}
-
-
-h1{
-  font-family: 'PTSans NarrowBold';
-    font-size: 59px;
-    color: #0e0e0e;
-    
-    margin-top: 115px;
-        margin-left: 15px;
-    text-transform: uppercase;
-   letter-spacing: 1.59px;
-    margin-bottom: 34px
-}
-
-
- h1:before {
-    content: "";
-width: 116px;
-     height: 3px;
-    position: absolute;
-    display: inline-block;
-    background: #0e0e0e;
-    z-index: 1;
-    margin-right: 20px;
-  margin-top: -30px
-  
-}
-
-header p {
-    font-size: 23px;
-    margin-left: 17px;
-       letter-spacing: 1.40px;
-    color: #181818;
-    line-height: 25px;
-        margin-bottom: 43px;
-    
-}
-
-header .block{
-    margin-top: 20px;
-}
-
-p span {
-        font-family: 'OpenSans Bold';
-      letter-spacing: 0.2px;
-}
-
-.botton_white {
-     font-family: 'OpenSans Bold';
-    
-    color: #fff;
-    text-decoration: none;
-    width: 307px;
-    height: 51px;
-    line-height: 51px;
-    border: 3px solid #ffffff;
-    display: inline-block;
-    text-align: center;
-    text-transform: uppercase;
-    margin-left: 17px;
-          letter-spacing: 1.3px;
-    float: left;
-    
-
-}
-
-.botton_white i{
-    font-size: 20px;
-    margin-left: 15px;
-   
-}
-.white_b {
-      width: 260px;
-    height: 57px;
-    text-align: center;
-    line-height: 57px;
-    display: inline-block;
-    position: relative;
-    margin-left: 5px;
-    background-color: #ffffff;
-    
-  font-size: 18px;
-     font-family: 'OpenSans Bold';
-    color: #0e0e0e;
-        letter-spacing: 1.3px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.white_b:hover{
-   color:#fff !important;
-}
-
-.white_b i{
-    font-size: 20px;
-    margin-left: 15px;
-}
-.white_b i:hover{
-   
-    
-    color: #000 !important;
-}
-
-header p{
-    font-size: 23px;
-      font-family: 'OpenSans Regular';
-
-}
-
-/* END HEADER CSS  Web~Oman*/
-
 
 
 
@@ -303,7 +90,7 @@ header p{
 
 #section_01 ul li{
     margin-bottom: 40px;
-    padding-left: 100px;
+    padding-left: 90px;
 }
 
 
@@ -639,9 +426,7 @@ font-size: 25px;
 }
 
 #section_04 li{
-    padding-left: 100px;
-  
- 
+    padding-left: 90px;
 }
 
 .slou {
@@ -757,7 +542,7 @@ cursor: crosshair
 
 
 .you{
-        font-family: 'OpenSans Bold';
+         font-family: 'OpenSans Bold';
     font-size: 62px;
     width: 144px;
     height: 144px;
@@ -766,11 +551,11 @@ cursor: crosshair
     color: #fff;
     text-align: center;
     line-height: 144px;
-    display: inherit;
     border: 5px solid #fff;
-        display: inline-block;
-     box-shadow:
-       0 0 0 5px #f56492;
+    display: block;
+    box-shadow: 0 0 0 5px #f56492;
+    margin-left: auto;
+    margin-right: auto;
 }
 #section_06 .button--wayra::before {
     background: #e24b89;
@@ -982,7 +767,7 @@ margin-top: 100px;
 
 
 .for-poster .black{
-        width: 98.3%;
+      width: 99.3% !important;
 
 font-size: 18px;
     margin: 0 !important;
@@ -1133,3 +918,341 @@ font-size: 18px;
 }
 
 
+.titlebox i{
+    display: none;
+}
+
+
+
+
+/*-------------------  Web~Oman   ---------------------------*/
+
+
+
+
+    .testpopup{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .testpopup__overlay{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: rgba(0,0,0,0.5);
+            text-align: center;
+            
+            z-index: 1;
+            opacity: 0;
+            visibility: hidden;
+        }
+        .testpopup__content{
+            width: 960px;
+            min-width: 310px;
+            box-sizing: border-box;
+            position: absolute;
+            top: 50px;
+            left: 0;
+            right: 0;
+            bottom: auto;
+            margin: auto;
+            max-height: 300px;
+            z-index: 2;
+            opacity: 0;
+            visibility: hidden;
+            transform: scale(0);
+        }
+        .testpopup_hidden{
+            opacity: 0;
+            visibility: hidden;
+            transition: 0s all 0.2s;
+        }
+        .testpopup_visible{
+            opacity: 1;
+            visibility: visible;
+        }
+        .testpopup_visible .testpopup__overlay{
+            opacity: 1;
+            visibility: visible;
+            transition: .2s all;
+            
+        }
+        .testpopup_hidden .testpopup__overlay{
+            transition: .2s all 0.2s;
+        }
+        .testpopup_visible .testpopup__content{
+            opacity: 1;
+            visibility: visible;
+            transform: scale(1);
+            transition: .2s all 0.2s;
+        }
+        .testpopup_hidden .testpopup__content{
+            transition: .2s all;
+             
+        }
+
+
+
+.user_content .autor {
+    font-size: 20px !important;
+       font-family: 'OpenSans Bold' !important;
+    color: #0e0e0e !important;
+    text-transform: uppercase !important;
+}
+.user_content .position {
+    margin-top: 0px !important;
+    color: #5f5f5f;font-size: 18px !important;
+       font-family: 'OpenSans Regular' !important;
+    margin: 0;
+    padding: 0;
+}
+
+
+.tuser_content p{
+    font-size: 20px !important;
+    color: #0e0e0e !important;
+     font-family: 'OpenSans Regular' !important;
+    margin-top: 30px !important;
+    
+}
+
+.user_content p b{
+    color: #0e0e0e !important;
+     font-family: 'OpenSans Bold' !important;
+}
+
+.testpopup__content .cont_popap{
+     background: #fff;
+    padding-top: 70px;
+    height: 487px;
+}
+
+
+.cont_popap .container_12 .grid_3{
+    text-align: center;
+}
+
+
+
+.testpopup-button img {
+     float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.testpopup-button img:hover {
+opacity: .6;
+}
+
+.band{
+    margin-top: 25px;
+    width: 271px;
+    height: 5px;
+    background-color: #f56492;
+}
+
+.cont_popap .social{
+    margin-top: 18px;
+}
+.cont_popap .social i{
+   color: #3d3d3d;
+ border: 3px solid #3d3d3d;
+}
+
+
+   
+
+.testpopup__position,.testpopup__position1,.testpopup__position2,.testpopup__position3,.testpopup__position4,.testpopup__position5,.testpopup__position6{
+      width: 166px;
+    height: 147px;
+    border: 6px solid #fff;
+    display: inline-block;
+
+    position: absolute;
+    margin-left: -166px;
+    margin-top: 16px;
+}
+
+.testpopup__position:after {
+    background-color: #f56492;
+    color: #fff;
+    font-family: 'PTSans NarrowBold';
+    text-transform: uppercase;
+    
+    
+    content: "Leading Manager";
+    display: inline-block;
+    z-index: 1;
+    margin-right: -175px;
+    margin-top: 61px;
+    right: 100px;
+    top: 0px;
+    font-size: 22px;
+    padding: 2px 3px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+
+.testpopup__position1:after {
+    background-color: #f56492;
+    color: #fff;
+    font-family: 'PTSans NarrowBold';
+    text-transform: uppercase;
+    
+    
+    content: "Leading Manager";
+    display: inline-block;
+    z-index: 1;
+    margin-right: -175px;
+    margin-top: 61px;
+    right: 100px;
+    top: 0px;
+    font-size: 22px;
+    padding: 2px 3px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.testpopup__position2:after {
+    background-color: #f56492;
+    color: #fff;
+    font-family: 'PTSans NarrowBold';
+    text-transform: uppercase;
+    
+    
+    content: "Business Coach";
+    display: inline-block;
+    z-index: 1;
+    margin-right: -175px;
+    margin-top: 61px;
+    right: 100px;
+    top: 0px;
+    font-size: 22px;
+    padding: 2px 3px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.testpopup__position3:after {
+    background-color: #f56492;
+    color: #fff;
+    font-family: 'PTSans NarrowBold';
+    text-transform: uppercase;
+    
+    
+    content: "Beauty Consultant";
+    display: inline-block;
+    z-index: 1;
+    margin-right: -175px;
+    margin-top: 61px;
+    right: 100px;
+    top: 0px;
+    font-size: 22px;
+    padding: 2px 3px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.testpopup__position4:after {
+    background-color: #f56492;
+    color: #fff;
+    font-family: 'PTSans NarrowBold';
+    text-transform: uppercase;
+    
+    
+    content: "Make-Up Artist";
+    display: inline-block;
+    z-index: 1;
+    margin-right: -175px;
+    margin-top: 61px;
+    right: 100px;
+    top: 0px;
+    font-size: 22px;
+    padding: 2px 3px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.testpopup__position5:after {
+    background-color: #f56492;
+    color: #fff;
+    font-family: 'PTSans NarrowBold';
+    text-transform: uppercase;
+    
+    
+    content: "Beauty Consultant";
+    display: inline-block;
+    z-index: 1;
+    margin-right: -175px;
+    margin-top: 61px;
+    right: 100px;
+    top: 0px;
+    font-size: 22px;
+    padding: 2px 3px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+
+.testpopup__position6:after {
+    background-color: #f56492;
+    color: #fff;
+    font-family: 'PTSans NarrowBold';
+    text-transform: uppercase;
+    
+    
+    content: "Beauty Consultant";
+    display: inline-block;
+    z-index: 1;
+    margin-right: -175px;
+    margin-top: 61px;
+    right: 100px;
+    top: 0px;
+    font-size: 22px;
+    padding: 2px 3px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.md_hew{
+  
+      width: 960px !important;
+    background: #fff;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    max-width: 960px !important;
+    min-width: 220px !important;
+    
+}
+
+.cont_popap img{
+    width: 100%;
+}
+/*-------------------  Web~Oman   ---------------------------*/

@@ -360,10 +360,7 @@ h2{
 
 /* END CSS  Web~Oman*/
 
-/* HEDER 960  Web~Oman*/
 
-
-/*END HEDER 960  Web~Oman*/
 
 
 
@@ -462,4 +459,27 @@ margin-top: 30px;
 #section_06 .block {
     margin-top: 45px;
     margin-bottom: 100px;
+}
+
+
+#section_06 p {
+    margin-top: 10px;
+}
+
+#section_08 .for-poster .form_icon i {
+  
+    line-height: 60px;
+
+}
+
+.md-content.forma_order_popap{
+    
+width: 353px;
+    height: 383px;
+    
+}
+
+
+.cont_popap img {
+    width: auto;
 }

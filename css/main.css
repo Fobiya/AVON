@@ -121,6 +121,76 @@ a, button, img, input {
     opacity: 1;
 }
 /* ============================ modal css =========================== */
+
+
+/* Web~Oman */
+
+
+#katalog input{
+    padding: 18px 38px 18px 38px !important;
+}
+
+
+h2{
+    display: inline-block;
+}
+
+
+.md-content.forma_order_popap form .cb{
+
+display: inline-block;
+    width: 100%;
+}
+
+   
+
+.md-content.forma_order_popap form .black:hover{
+     background: #f66998;
+}
+.md-content.forma_order_popap form .black{
+
+    line-height: 47px;
+    height: 54px;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+}
+
+.md-content.forma_order_popap{
+    
+width: 100%;
+    height: 383px;
+    
+}
+
+.titlebox h2 {
+    height: 44px;
+    font-size: 20.37px;
+        font-family: 'OpenSans Bold';
+    color: #ffffff;
+    background-color: #f66998;
+    line-height: 44px;
+    width: 100%;
+    margin-top: 43px;
+    margin-bottom: 0px;
+}
+
+.md-content.forma_order_popap form{
+    padding: 40px;
+       background: #fff url(../images/fom_form.png) no-repeat 8px 40px;
+}
+
+
+.md-content.forma_order_popap form input
+{
+    width: 100%;
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+}
+/* style Web~Oman */
+
+
 .md_large {
     max-width: 100%;
     width: 90%;
@@ -190,7 +260,7 @@ a, button, img, input {
     color: rgba(209, 34, 42, 1);
     }
 .md-content .form_input {
-        width: 75%;
+        width: %;
 }
 /* ------------------- footer ------------------- */
 
@@ -257,8 +327,7 @@ small {
 }
 input {
     display: block;
-  width: 260px;
-    height: 100%;
+
   padding: 11px 18px 11px 38px;
    background: #fff;
     background-image: none;

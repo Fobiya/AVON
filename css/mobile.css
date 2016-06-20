@@ -42,9 +42,7 @@
 .md_large .md-content > div.md_content {
     padding: 0px 20px 0px;
 }
-.md-content>div {
-    padding: 40px 20px 20px 20px;
-}
+
 
 /*CSS  Web~Oman*/
 
@@ -86,33 +84,7 @@ h2 {
 }
 /*END CSS  Web~Oman*/
 
-/* HEDER 720  Web~Oman*/
 
-.phone {
-
-    font-size: 20px !important;
-
-}
-
-
-.logo {
-  
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-}
-
-header {
-     background: #f2487e !important;
-    height: auto;
-    z-index: 0;
-    position: relative;
-    display: inline-block;
-        text-align: center;
-}
-
-/*END HEDER 720  Web~Oman*/
-   
 
 #section_01 .block a{
     float: none;
@@ -128,22 +100,21 @@ header {
 }
 
 #section_01 .block:before {
-    content: "";
-    width: 90px;
-    height: 25px;
-    position: absolute;
-    display: inline-block;
-    background: url(../images/awers-left.png) no-repeat;
-    z-index: 1;
-    margin-left: -300px;
-    margin-top: 30px;
+   display: none;
 }
 
 
-#section_03 .num1,#section_03 .num2  {
-  
+#section_03 .num1  {
+      font-size: 28px;
     text-align: center;
 }
+
+#section_03 .num2 {
+          font-size: 22px;
+    text-align: center;
+}
+
+
 
 #section_03 hr {
     width: 100%;
@@ -212,27 +183,11 @@ padding-left:0px;
 }
 
 #section_02 h2:after, #section_05 h2:after, #section_06 h2:after, #section_07 h2:after {
-    content: "";
-    width: 50px;
-    height: 3px;
-    position: absolute;
-    display: inline-block;
-    background: #000;
-    z-index: 1;
-    margin-left: 15px;
-    margin-top: 26px;
+   display: none;
 }
 
 #section_02 h2:before, #section_05 h2:before, #section_06 h2:before, #section_07 h2:before {
-    content: "";
-    width: 50px;
-    height: 3px;
-    position: absolute;
-    display: inline-block;
-    background: #000;
-    z-index: 1;
-     margin-left: -67px;
-    margin-top: 26px;
+  display: none;
 }
 
 .youtube {
@@ -306,7 +261,7 @@ padding-left:0px;
     height: auto;
     text-align: center;
     float: none;
-    margin-top: 40px;
+      margin-top: 0!important;
     margin-left: auto;
     margin-right: auto;
     display: inherit;
@@ -359,7 +314,7 @@ text-align: center
 }
 
 #section_08 input ,#section_08 .field{
-  
+      height: 60px;
     width: 100%;
 }
 
@@ -388,6 +343,7 @@ text-align: center
 #section_02 {
 
     padding: 50px 0;
+        background: #EEE8E7;
 }
 
 
@@ -415,3 +371,72 @@ h1 {
     margin-bottom: 60px;
 }
 
+.rhz_box {
+
+    height: 150px;
+}
+
+#section_06 .grid_5 {
+    height: 70px;
+}
+
+#section_06 p{
+      margin-top: 10px;
+}
+
+.view {
+    width: 204px;
+    height: 238px;
+    margin: 20px auto;
+    border: 10px solid #c0c0c0;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 2px #484242;
+    -moz-box-shadow: 1px 1px 2px #484242;
+    box-shadow: 1px 1px 2px #484242;
+    cursor: default;
+    float: none;
+}
+
+
+@media only screen and (max-width: 518px) and (min-width: 467px){
+
+    #section_05 .grid_3{
+        width: 100%;
+            margin-left: 0px !important;
+    margin-right: 0px !important;
+    }
+    
+    
+}
+
+
+.designation{
+    text-align: center;
+}
+
+.md-content.forma_order_popap {
+    width: 100% !important;
+    height: 383px;
+}
+
+.hwe {
+         height: 400px;
+    overflow-y: auto;
+}
+
+.md_hew {
+    
+ 
+    width: 90% !important;
+    background: #fff;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    max-width: 960px !important;
+    min-width: 220px !important;
+   
+}
+.cont_popap img {
+    width: 180px;
+}
