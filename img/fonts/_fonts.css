@@ -1,0 +1,129 @@
+
+
+
+/*
+@font-face {
+	font-family: 'DINCondensedC';
+	src: url('../fonts/DINCondensedC.eot');
+	src: local('☺'), url('../fonts/DINCondensedC.woff') format('woff'), url('../fonts/DINCondensedC.ttf') format('truetype'), url('../fonts/DINCondensedC.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+@font-face {
+	font-family: 'DIN Cyr Bold';
+	src: url('../fonts/DinCyBd_0.eot');
+	src: local('☺'), url('../fonts/DinCyBd_0.woff') format('woff'), url('../fonts/DinCyBd_0.ttf') format('truetype'), url('../fonts/DinCyBd_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+@font-face {
+	font-family: 'DINCyr Regular';
+	src: url('../fonts/DinCyRg_0.eot');
+	src: local('☺'), url('../fonts/DinCyRg_0.woff') format('woff'), url('../fonts/DinCyRg_0.ttf') format('truetype'), url('../fonts/DinCyRg_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'DINCyr Regular Alternate';
+	src: url('../fonts/DinCyRgA_0.eot');
+	src: local('☺'), url('../fonts/DinCyRgA_0.woff') format('woff'), url('../fonts/DinCyRgA_0.ttf') format('truetype'), url('../fonts/DinCyRgA_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+
+*/
+@font-face {
+    font-family: 'PTSans NarrowBold';
+    src: url("../fonts/PTN77F.ttf");
+    src: url("../fonts/PTN77F.ttf?#iefix")format("embedded-opentype"),
+    url("../fonts/PTN77F.ttf") format("ttf"),
+    url("../fonts/PTN77F.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'OpenSans Regular';
+    src: url("../fonts/OpenSans-Regular_0.ttf");
+    src: url("../fonts/OpenSans-Regular_0.ttf?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSans-Regular_0.ttf") format("ttf"),
+    url("../fonts/OpenSans-Regular_0.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: 'OpenSans Regular';
+    src: url("../fonts/OpenSans-Regular_0.ttf");
+    src: url("../fonts/OpenSans-Regular_0.ttf?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSans-Regular_0.ttf") format("ttf"),
+    url("../fonts/OpenSans-Regular_0.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansPTS75F';
+    src: url("../fonts/PTS75F.ttf");
+    src: url("../fonts/PTS75F.ttf?#iefix")format("embedded-opentype"),
+    url("../fonts/PTS75F.ttf") format("ttf"),
+    url("../fonts/PTS75F.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'OpenSans Bold';
+    src: url("../fonts/OpenSans-Bold_0.ttf");
+    src: url("../fonts/OpenSans-Bold_0.ttf?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSans-Bold_0.ttf") format("ttf"),
+    url("../fonts/OpenSans-Bold_0.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*
+@font-face {
+	font-family: 'tahoma';
+	src: url('../fonts/tahoma.eot');
+	src: local('☺'), url('../fonts/tahoma.woff') format('woff'), url('../fonts/tahoma.ttf') format('truetype'), url('../fonts/tahoma.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'tahomabd';
+	src: url('../fonts/tahomabd.eot');
+	src: local('☺'), url('../fonts/tahomabd.woff') format('woff'), url('../fonts/tahomabd.ttf') format('truetype'), url('../fonts/tahomabd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+
+
+
+*/

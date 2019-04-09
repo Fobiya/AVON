@@ -1,0 +1,415 @@
+/* Genius Marketing | Web~Oman */
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.alpha,
+.omega {
+  margin-left: 0;
+  margin-right: 0;
+}
+.align_center,
+.align_right {
+  text-align: left;
+}
+#section_footer {
+	text-align: center;
+}
+#section_footer ul li {
+    padding-right: 0px;
+}
+.btn_close_modal {
+    right: 6px;
+    top: 10px;
+}
+.md_large .md-content > div.md_content {
+    padding: 0px 20px 0px;
+}
+.md-content>div {
+    padding: 40px 20px 20px 20px;
+}
+
+/*CSS  Web~Oman*/
+
+
+
+
+br{
+    display: none;
+}
+
+
+span{
+       display: inline;
+    position: initial;
+}
+
+
+h2 {
+        text-align: center;
+         font-size: 25px;
+      margin: 0px auto 45px auto;
+    display: inline-table;
+}
+
+
+.tr{
+    text-align: center;
+}
+
+.information {
+
+}
+
+
+#section_01 p {
+
+    font-size: 18px;
+
+}
+/*END CSS  Web~Oman*/
+
+/* HEDER MINI  Web~Oman*/
+
+.phone {
+
+    font-size: 20px !important;
+
+}
+
+
+.logo {
+  
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+header {
+     background: #f2487e !important;
+    height: auto;
+    z-index: 0;
+    position: relative;
+    display: inline-block;
+        text-align: center;
+}
+
+/*END HEDER MINI  Web~Oman*/
+
+
+
+
+
+
+
+#section_01 .block a{
+    float: none;
+    margin: 15px auto;
+}
+
+#section_01 .block{
+    width: 100%;
+    margin: 10px auto;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+#section_01 .block:before {
+    content: "";
+    width: 90px;
+    height: 25px;
+    position: absolute;
+    display: inline-block;
+    background: url(../images/awers-left.png) no-repeat;
+    z-index: 1;
+    margin-left: -300px;
+    margin-top: 30px;
+}
+
+
+#section_03 .num1,#section_03 .num2  {
+  
+    text-align: center;
+}
+
+#section_03 hr {
+    width: 100%;
+
+}
+
+
+#section_03 .grid_3{
+text-align: center;
+}
+
+
+#section_04 {
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+#section_03 .black {
+    margin-left: 0;
+    width: 315px;
+    margin: 0 auto;
+    float: none;
+}
+
+
+#section_03 .block {
+    margin-top: 77px;
+    margin-bottom: 50px;
+}
+
+#section_03 .block:before{
+    display: none;
+}
+
+.container_12 .prefix_1_5 {
+    
+padding-left:0px;
+}
+
+#section_04 h2:after {
+ display: none;   
+}
+
+
+.view {
+     width: 204px;
+    height: 238px;
+    margin: 20px auto;
+    border: 10px solid #c0c0c0;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 1px 1px 2px #484242;
+    -moz-box-shadow: 1px 1px 2px #484242;
+    box-shadow: 1px 1px 2px #484242;
+    cursor: default;
+    float: none;
+}
+
+#section_02 h2:after, #section_05 h2:after, #section_06 h2:after, #section_07 h2:after {
+     display: none;
+}
+
+#section_02 h2:before, #section_05 h2:before, #section_06 h2:before, #section_07 h2:before {
+  display: none;
+}
+
+.youtube {
+    background: url(../images/Screenshot_2.png);
+    margin-top: 100px;
+    width: 90%;
+    height: 305px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: all 200ms ease-out;
+    cursor: pointer;
+    border: 15px solid #c0c0c0;
+    margin-bottom: 50px;
+    background-size: contain;
+}
+
+.youtube:before{
+    display: none;
+}
+
+
+
+.owl-carousel img {
+    width: 100%;
+    height: auto;
+  
+}
+
+
+.owl-pagination {
+    display: inline-block;
+}
+
+.owl-buttons{
+    display: none;
+}
+
+
+.owl-carousel .prefix_1_5:before {
+        margin-left: 0px;
+    content: "";
+    width: 170px;
+    height: 250px;
+    position: absolute;
+    display: inline-block;
+    background: url(../images/kartoska.png) no-repeat top 20px left;
+    z-index: -1;
+    margin-top: -15px;
+    background-size: contain;
+}
+
+
+.owl-carousel img {
+    width: 80%;
+    height: auto;
+    text-align: right;
+    float: right;
+    margin-top: 40px;
+}
+
+.owl-carousel .prefix_1_5:before{
+    display: none;
+}
+
+
+.owl-carousel img {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    float: none;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inherit;
+    margin-bottom: 50px;
+}
+
+.icone {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section_06 .block:after{
+    display: none;
+}
+
+.for-poster {
+
+    display: inline-block;
+        margin-top: 55px;
+}
+
+.box_post {
+float: none;
+    margin-top: 0px;
+    margin-bottom: 20px
+}
+
+#section_08 {
+ 
+    padding-top: 50px;
+}
+#section_08 .grid_8{
+text-align: center
+}
+.for-poster {
+    display: inline-block;
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+
+#section_07{
+    margin-bottom: 50px;
+}
+
+
+
+
+.for-poster{
+        margin-top: 0px;
+}
+
+#section_08 input ,#section_08 .field{
+  
+    width: 100%;
+}
+
+.footer_top .flogo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.social{
+    margin: 10px;
+}
+
+.mail {
+    margin: 10px;
+    display: inline-block;
+}
+
+#section_01 {
+    background: none;
+    height: auto;
+    z-index: 0;
+    position: relative;
+    padding: 50px 0;
+}
+
+#section_02 {
+
+    padding: 50px 0;
+}
+
+
+
+
+.button {
+    float: none;
+  
+    margin: 20px auto;
+}
+
+h1 {
+    font-family: 'PTSans NarrowBold';
+    font-size: 35PX;
+    margin-top: 55px;
+}
+
+#section_08 {
+
+    text-align: center;
+}
+
+#section_06 .block {
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+
+#section_02 h3 {
+
+    font-size: 21px;
+
+}
+
+.black {
+
+    width: auto;
+
+    font-size: 12px;
+}
+
+#section_03 .black {
+
+    width: auto;
+   
+}
